@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-8667194-2"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-8667194-2');
+    </script><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="ROBOTS" content="ALL" /><title>SWISS-MODEL | 404 Not Found</title><meta name="description" content="SWISS-MODEL is a fully automated protein structure homology-modelling server. The purpose of this server is to make protein modelling accessible to all life science researchers worldwide." /><link rel="stylesheet" type="text/css" href="/static/css/bootstrap-3.3.7.min.css" media="screen,print"/><link rel="stylesheet" type="text/css" href="/static/css/bootstrap-theme-3.3.7.min.css" media="screen,print"/><link rel="stylesheet" type="text/css" href="/static/css/master.css?v=1619703577"  media="all" /><link rel="stylesheet" type="text/css" href="/static/fancybox-2.1.4/jquery.fancybox.css"/><link rel="stylesheet" type="text/css" href="/static/jquery-ui-1.11.2.custom/jquery-ui.min.css"/><link rel="shortcut icon" href="/static/images/favicon.png" type="image/png" /><link rel="apple-touch-icon" href="/static/images/apple-touch-57.png" /><link rel="apple-touch-icon" sizes="72x72" href="/static/images/apple-touch-72.png" /><link rel="apple-touch-icon" sizes="114x114" href="/static/images/apple-touch-114.png" /></head><body><nav class="navbar navbar-default"><div class="container-fluid"><div class="navbar-header"><button aria-controls="navbar" aria-expanded="false" data-target=".collapseThis" data-toggle="collapse" class="navbar-toggle collapsed" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="hidden-xs hidden-sm navbar-brand" style="margin-left:0px;padding:8px 4px 0px 0px;"
+            title="SIB Swiss Institute of Bioinformatics" 
+            href="https://www.sib.swiss" target="_blank"><img src="/static/images/sib_logo_small.png" alt="SIB logo" style="max-height:50px"></a><a class="hidden-xs hidden-sm navbar-brand" style="margin-left:0px; padding:8px 0px 0px 4px;"
+        title="Biozentrum | University of Basel | The Center for Molecular Life Sciences" 
+        href="http://www.biozentrum.unibas.ch/" target="_blank"><img src="/static/images/biozentrum_en.png" alt="Biozentrum logo" style="max-height:36px"></a><a class="hidden-xs hidden-sm navbar-brand" href="/" style="margin-left:0px;padding-left:0px;padding-right:0px;font-size:28px;">SWISS-MODEL</a><a id="navbar-brand" class="hidden-md hidden-lg navbar-brand" href="/" style="margin-left:0px;font-size:20px;">SWISS-MODEL</a></div><div id="navbar" class="collapseThis navbar-collapse collapse"><!-- Collect the nav links, forms, and other content for toggling --><ul class="nav navbar-nav navbar-right"><li class="dropdown "><a href="/interactive" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Modelling</a><ul class="dropdown-menu" role="menu"><li><a class="text-left" href="/interactive">myWorkspace</a></li><li><a class="text-left" href="/interactive#alignment">Alignment Mode</a></li><li><a class="text-left" href="/interactive#structure">User Template Mode</a></li><li><a class="text-left" href="/interactive#deepview">DeepView Project Mode</a></li><li class="divider"></li><li><a class="text-left" href="/templates/">Template Library</a></li></ul></li><li id="smrLink" class="dropdown "><a href="/repository" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Repository</a><ul class="dropdown-menu" role="menu"><li><a href="/repository">SWISS-MODEL Repository</a></li><li><a href="/repository/user_annotation_upload">Annotation Projects</a></li></ul></li><li class="dropdown "><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tools</a><ul class="dropdown-menu" role="menu"><li><a href="/qmean/" tabindex="-1">QMEAN</a></li><li><a href="/lddt" tabindex="-1">lDDT</a></li><li><a href="/assess">Structure Assessment</a></li><li><a href="/comparison/">Structure Comparison</a></li></ul></li><li class="dropdown "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Documentation</a><ul class="dropdown-menu" role="menu"><li><a href="/docs/help" tabindex="-1">SWISS-MODEL</a></li><li><a href="/docs/examples" tabindex="-1">Examples</a></li><li><a href="/docs/tutorial" tabindex="-1">Video Tutorial</a></li><li><a href="/docs/blog" tabindex="-1">New Features</a></li><li role="separator" class="divider"></li><li><a href="/docs/repository_help" tabindex="-1">SWISS-MODEL Repository</a></li><li role="separator" class="divider"></li><li><a href="/qmean/help" tabindex="-1">QMEAN</a></li><li><a href="/lddt/help/" tabindex="-1">lDDT</a></li><li><a href="/assess/help">Structure Assessment</a></li><li><a href="/comparison/help">Structure Comparison</a></li><li role="separator" class="divider"></li><li><a href="/course" tabindex="-1">Protein Structure Course</a></li><li role="separator" class="divider"></li><li><a href="/docs/references" tabindex="-1">References</a></li></ul></li><li><a onclick="showLogin();">Log in</a></li><li><a onclick="createAccount();">Create Account</a></li></ul></div></div><!-- /container-fluid --></nav><div id="tools"></div><div id="main-content" style="padding-left:32px; margin-right:32px"><h1>404 Not Found</h1><h1>Sorry, the page you are looking for does not exist.</h1><br><br><strong><ul><li>If you reached this page from a link in an email, it is 
+	most likely that the project you are looking for was deleted automatically after 2 weeks. 
+	Please update your bookmarks and links accordingly.</li><li>Remember that you can download your completed projects as a project archive, or you can prolong the life
+		of a project by logging in and clicking the "+7" button.</li></ul></div><div id="loginForm" style="width:600px;display:none;padding-top:12px; text-align:center;"></div><footer class="footer hidden-print"><div id="sib_footer"><ul class="list-inline" style="margin-bottom:0px; padding-bottom:4px;padding-top:4px;"><li><a href="https://www.sib.swiss"><span class="footerLg">Swiss Institute of Bioinformatics</span><span class="footerSm">SIB</span></a></li><li><a href="https://www.biozentrum.unibas.ch/research/researchgroups/overview/unit/schwede/">Schwede Group</a></li><li><a  href="mailto:mouseover@for.address" class="swissmodelContactRef">Contact Us</a></li><li><a href="/docs/terms_of_use">Terms of use</a></li><li class="pull-right"><a id="sib_footer_gototop" onclick="window.scrollTo(0,0);"><i class="glyphicon glyphicon-arrow-up"></i><span class="footerLg"> Back to the Top</span></a></li></ul><div class="clearfix"></div></div></footer><script src="/static/js/jquery-3.4.1.min.js"></script><script src="/static/jquery-ui-1.11.2.custom/jquery-ui.min.js"></script><script src="/static/js/bootstrap-3.3.7.min.js"></script><script src="/static/fancybox-2.1.4/jquery.fancybox.pack.js"></script><script>
+    $('a.smng-help').append('<icon class="glyphicon glyphicon-question-sign"></i>');
+    $(document).on('click','a.smng-help',function()
+    { 
+        window.open($(this).attr('href'),
+            'Help',
+            'width=920,height=600,left=20,top=100,directories=no,menubar=yes,toolbar=yes,'
+                +'status=no,scrollbars=yes,resizable=no');
+        return false;
+    });
+
+     $('a.swissmodelContactRef')
+        .on('mouseover',function()
+            {
+                $(this).attr('href',["ch", ".", "nibas", "l@u",
+             "mode", "-swiss",
+              ":help", "to", "ail", "m"].reverse().join(''));
+                $(this).off('mouseover');
+            });
+
+     function showLogin()
+     {
+        $('#loginForm')
+            .load('/login', { 'csrfmiddlewaretoken':'yTe7wg9LxwGYtbbbvblgfHDbgk7e9HqqUe5GuPSElHQfcH7fBn8YM41Zr69XE35J' },
+                function()
+                {
+                    $("<a href='#loginForm'/>'").fancybox().trigger('click');  
+                    $('#id_username').focus();
+                });
+        
+     } 
+     function createAccount()
+     {
+        $('#loginForm')
+            .load('/create_account',
+                function()
+                {
+                    $("<a href='#loginForm'/>'").fancybox().trigger('click'); 
+                    $('#id_username').focus();  
+                });
+     }
+     
+</script></body></html>
