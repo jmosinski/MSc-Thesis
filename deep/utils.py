@@ -174,22 +174,6 @@ def get_loaders(x_train, y_train, x_test, y_test,
         collate_fn=collate,
     )
     return train_loader, test_loader
-    
-# def net_cross_val(model, x, y, loader_params, groups=None, 
-#                   kf=KFold(), epochs=20, early_stop=10):
-#     scores = []
-#     for train_index, test_index in kf.split(x, y, groups):
-#         x_train, y_train = x[train_index], y[train_index]
-#         x_test, y_test = x[test_index], y[test_index]
-#         train_loader, test_loader = get_loaders(x_train, y_train,
-#                                                 x_test, y_test,
-#                                                 **loader_params)
-#         curr_model = copy.deepcopy(model)
-#         history = curr_model.train(train_loader, test_loader=test_loader,
-#                                    epochs=epochs, early_stop=early_stop,
-#                                    verbose=False)
-#         scores.append(history['test_loss'][-1])
-#     return np.array(scores)
 
 def net_cross_val(model, x, y, loader_params, groups=None, 
                   kf=KFold(), epochs=20, early_stop=10):
@@ -241,33 +225,6 @@ def ensemble_cross_val(model, x, y, loader_params, groups=None,
         preds, targets = curr_model.predict(test_loader)
         scores.append(sklearn.metrics.mean_squared_error(targets, preds))
     return np.array(scores)
-
-# def optimize(space, objective, evals, verbose=True):
-#     trials = hyperopt.Trials()
-#     hyperopt.fmin(
-#         fn=objective,
-#         space=space,
-#         algo=hyperopt.tpe.suggest,
-#         max_evals=evals,
-#         trials=trials
-#     )
-    
-#     results = []
-#     for t in trials:
-#         vals = {}
-#         for k, v in t['misc']['vals'].items():
-#             vals[k] = v[0]
-#         results.append((t['result']['loss'], vals))
-#     results.sort()
-        
-    
-#     if verbose:
-#         for i, (loss, params) in enumerate(results):
-#             print('-'*5, i+1, '-'*5)
-#             print('Loss:', loss)
-#             print('Params:', params)
-            
-#     return results
 
 def optimize(objective, space, mapping={}, evals=1):
     def map_params(params):

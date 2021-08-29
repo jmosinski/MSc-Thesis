@@ -163,14 +163,6 @@ class PeptideTripletDataset(PeptideSiameseDataset):
         self.targets = list(targets)
         self.vocab = Vocabulary(aminoacids)
     
-#     def __getitem__(self, index):
-#         peptide1, peptide2, peptide3 = self.peptides[index]
-#         peptide1 = self.vocab.encode(peptide1)
-#         peptide2 = self.vocab.encode(peptide2)
-#         peptide3 = self.vocab.encode(peptide3)
-#         target1, target2, target3 = self.targets[index]
-#         return torch.tensor(peptide1), torch.tensor(peptide2), torch.tensor(peptide3)
-    
     def __getitem__(self, index):
         peptides = []
         for peptide in self.peptides[index]:
@@ -279,7 +271,7 @@ class CollateNextAA(Collate):
     
     
 #################
-# RetensionTime #
+# RetentionTime #
 #################
     
     
